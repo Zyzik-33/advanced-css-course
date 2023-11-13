@@ -1,0 +1,45 @@
+# Pliki konfiguracyjne środowiska lokalnego
+*.env
+*.config
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Katalogi z zależnościami
+node_modules/
+vendor/
+
+# Pliki kompilacji i katalogi wyjściowe
+*.o
+*.class
+*.pyc
+/build/
+/dist/
+/obj/
+/bin/
+/out/
+
+# Pliki dziennika
+*.log
+*.out
+
+# Katalogi i pliki IDE/edytora tekstu
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Pliki baz danych
+*.sqlite
+*.db
+
+# Katalogi i pliki, które często są generowane przez narzędzia i frameworki
+/target/
+/cargo.lock
+/Gemfile.lock
+/package-lock.json
+/yarn.lock
+
+# Pliki konfiguracyjne z kluczami lub tajnymi danymi
+secret.json
