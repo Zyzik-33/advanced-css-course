@@ -56,12 +56,10 @@
 .btn-text {
   &:link,
   &:visited {
-    font-size: 1.6rem;
     color: $primary-color;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid $primaty-color;
-    padding: 3px;
+    border-bottom: 1px solid "$primaty-color";
   }
 
   &:hover {
