@@ -1,0 +1,10 @@
+.card {
+  perspective: 150rem;
+  -moz-animation: ;
+
+  background-color: orangered;
+  height: 50rem;
+  transition: all .7s;
+
+  transform: rotateY(180deg);
+}
